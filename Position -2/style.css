@@ -1,0 +1,55 @@
+.container{
+    background: linear-gradient(to right, #0056cb, #87ceeb);
+}
+.fa{
+    margin: 2px;
+    transition: none;
+    min-width: 40px;
+    text-align: center;
+}
+.box{
+    width: 300px;
+}
+.box h1{
+    text-align: center;
+}
+.box label{
+    cursor: pointer;
+}
+.box label input{
+    appearance: none;
+}
+.box label .fa,
+.box label span{
+    font-size: 20px;
+}
+.box .check{
+    width: 36px;
+    height: 20px;
+    background-color: #aaa;
+    border-radius: 12px;
+    padding: 2px;
+}
+.check .circle{
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.box label:hover{
+    background-color: #ccc;
+}
+.box label input:checked ~ .check{
+    background-color: #0056cb;
+}
+.box label input:checked ~ .check .circle{
+    margin-left: 16px;
+}
+
+
+
+.back-border{
+    background: linear-gradient(45deg, #87ceeb,#0056cb);
+    border:1px solid white;
+    padding: 50px;
+}
